@@ -2,7 +2,7 @@ import java.util.Random;
 
 public class Sort {
 
-    private static void sort(int[] list) {
+    public static void selectionSort(int[] list) {
         for (int i = 0; i < list.length; i++) {
             int currentMin = list[i];
             int currentMinIndex = i;
