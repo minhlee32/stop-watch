@@ -1,0 +1,11 @@
+@startuml
+class StopWatch{
+-startTime: long
+-endTime: long
++getStartTime(): long
++getEndTime(): long
++start(): long
++stop(): long
++getElapsedTime()
+}
+@enduml
